@@ -4,7 +4,7 @@ export default function Intro() {
       <h2>Introduction</h2>
       <h2>Thomas Clayton || Thirsty Cheetah</h2>
       <figure>
-        <img src="/images/korea.jpg" alt="Korea Pic" />
+        <img src="dist\images\korea.jpg" alt="Korea Pic" />
         <figcaption>Me in Seoul Korea</figcaption>
       </figure>
 
