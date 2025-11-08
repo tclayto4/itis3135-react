@@ -11,7 +11,7 @@ export default function Header() {
         <Link to="/introduction">Introduction</Link> ||
         <Link to="/contract">Contract</Link> ||
         <a href="https://tclayto4.github.io/itis3135/stuff/Wrong%20File!.htm">Crap Website</a> ||
-        <a href="https://tclayto4.github.io/itis3135/fccfsjs_outline.html">FCC Outline</a> ||
+        <a href="https://tclayto4.github.io/itis3135/fccfsjs_outline.htm">FCC Outline</a> ||
         <a href="https://tclayto4.github.io/itis3135/">Main 3135 Site</a>
       </nav>
     </header>
