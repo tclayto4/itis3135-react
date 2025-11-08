@@ -1,72 +1,91 @@
-body{
-    background-color: rgb(128, 133, 204);
-    text-align: center;
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  background-color: rgb(128, 133, 204);
+  text-align: center;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    color: rgb(255, 217, 0);
-    text-decoration: underline;
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a {
+  color: rgb(255, 217, 0);
+  text-decoration: underline;
 }
 
 a:hover {
-    color: green;
-    text-decoration: line;
+  color: green;
+  text-decoration: line;
 }
 
-main{
-    text-align: left;
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
+main {
+  text-align: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-h2{
-    text-align: center;
+h2, h1 {
+  text-align: center;
 }
 
-figure{
-    text-align:center;
-    font-style: italic;
-}
-ul{
-    text-align: left;
+figure {
+  text-align: center;
+  font-style: italic;
 }
 
-li{
-    text-align: left;
+ul, li {
+  text-align: left;
 }
 
-footer{
-    text-align: center;
+table {
+  margin: 20px auto;
+  background-color: rgb(255, 234, 113);
 }
-table{
-    margin:auto;
-    background-color: rgb(255, 234, 113);
-}
-th, td{
-    border: 1px solid black;
-    text-align: left;
-    padding: 10px;
-}
-caption{
-    font-weight: bold;
-    margin-bottom: 6px;
-    font-size: 1.5em;
 
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px 0;
 }
 
 @media (max-width: 1024px) {
   body { font-size: 17px; }
-  main { width: 95%; max-width: 1024px; }  
+  main { width: 95%; max-width: 1024px; }
   table { width: 95%; }
 }
 
-
 @media (max-width: 720px) {
   body { font-size: 16px; text-align: left; }
-  main { width: 95%; max-width: 100%; }  
+  main { width: 95%; max-width: 100%; }
   table { width: 100%; font-size: 14px; }
   th, td { padding: 6px; }
 }
