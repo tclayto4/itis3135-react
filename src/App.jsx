@@ -8,6 +8,7 @@ import Contract from './pages/contract';
 
 export default function App() {
   return (
+    <Router basename="/itis3135-react">
     <div id="page-wrapper">
       <Header />
       <main>
@@ -19,5 +20,6 @@ export default function App() {
       </main>
       <Footer />
     </div>
+    </Router>
   );
 }
