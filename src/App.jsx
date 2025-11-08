@@ -1,4 +1,4 @@
-import { Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 
@@ -8,7 +8,7 @@ import Contract from './pages/contract';
 
 export default function App() {
   return (
-    <Router basename="/itis3135-react">
+    <BrowserRouter basename="/itis3135-react">
     <div id="page-wrapper">
       <Header />
       <main>
@@ -20,6 +20,6 @@ export default function App() {
       </main>
       <Footer />
     </div>
-    </Router>
+    </BrowserRouter>
   );
 }
