@@ -4,8 +4,6 @@ export default function Header() {
   return (
     <header>
       <h1>Thomas Clayton's Thirsty Cheetah || ITIS 3135</h1>
-
-      {/* Side-by-side nav bar with separators */}
       <nav id="main-nav">
         <Link to="/">Home</Link> ||
         <Link to="/introduction">Introduction</Link> ||
